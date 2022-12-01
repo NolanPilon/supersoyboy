@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 614794486170524208}
   - component: {fileID: 614794486170524209}
   - component: {fileID: 614794486170524211}
-  m_Layer: 0
+  - component: {fileID: 862181419}
+  m_Layer: 8
   m_Name: SoyBoy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,8 +107,8 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!68 &614794486170524209
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -153,3 +154,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &862181419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614794486170524220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892fe48e7fb3f534a84e7b39fbb6b20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 14
+  accel: 6
