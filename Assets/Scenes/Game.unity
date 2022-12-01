@@ -661,6 +661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoyBoy
       objectReference: {fileID: 0}
+    - target: {fileID: 614794486170524220, guid: ac56fca6afad364418a808bf54bfe6c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 614794486170524222, guid: ac56fca6afad364418a808bf54bfe6c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -784,6 +789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: buzzsaw
+      objectReference: {fileID: 0}
+    - target: {fileID: 2624216908183213743, guid: 1b2958474e6048540ac63812f654f5c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b2958474e6048540ac63812f654f5c3, type: 3}
